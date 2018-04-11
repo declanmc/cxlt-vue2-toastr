@@ -7,7 +7,6 @@
             <img :src="iconSrc"/>
             </div>
             <div class="toast-title">{{title}}</div>
-            <div class="toast-message" v-html="message" ></div>
         </div>
     </transition>
 </template>
